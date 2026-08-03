@@ -12,16 +12,21 @@ const SAMPLE = {
   targetKeyword: "project management software",
   content: `# Project management software that keeps teams aligned
 
-Northboard is project management software designed for growing product teams. Plan work, track progress, and communicate status without switching tools.
+Northboard is project management software designed for growing product and operations teams. Plan work, track progress, and communicate status without switching tools every hour.
 
-## Why teams switch
+## Why teams switch to dedicated project management software
 - Shared timelines across product, design, and engineering
-- Lightweight docs next to every task
-- Automations that cut status-meeting churn
+- Lightweight docs living next to every task and milestone
+- Automations that cut weekly status-meeting churn
+- Clear ownership so blockers surface before deadlines slip
 
-Use project management software that mirrors how modern teams actually ship. Northboard connects goals to delivery so leaders see risk early.
+## How Northboard works
+Kick off a project with goals, milestones, and roles. Assign work in boards or lists, then watch risk indicators update as dates move. Stakeholders get a living summary instead of another slide deck.
 
-Learn more at https://example.com/features and compare plans at https://example.com/pricing.`,
+Use project management software that mirrors how modern teams actually ship. Northboard connects strategy to delivery so leaders see risk early and contributors know what matters this week.
+
+## Results teams report
+Teams using Northboard reduce planning time, improve on-time delivery, and keep async updates in one place. Compare features at https://example.com/features and review plans at https://example.com/pricing.`,
 };
 
 export default function SeoPage() {
