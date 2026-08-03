@@ -1,45 +1,33 @@
-export const MODULES = [
-  {
-    id: "seo" as const,
-    name: "SEO",
-    full: "Search Engine Optimization",
-    href: "/app/seo",
-    blurb: "Win classic search with titles, intent, and on-page depth.",
-    detail:
-      "Audit titles, meta, keyword placement, and content depth for Google-ready pages.",
-  },
-  {
-    id: "aso" as const,
-    name: "ASO",
-    full: "App Store Optimization",
-    href: "/app/aso",
-    blurb: "Rank and convert inside App Store and Google Play listings.",
-    detail:
-      "Tune app name, subtitle, keyword field, and description for store discoverability.",
-  },
-  {
-    id: "geo" as const,
-    name: "GEO",
-    full: "Generative Engine Optimization",
-    href: "/app/geo",
-    blurb: "Get cited by ChatGPT, Perplexity, and Gemini answers.",
-    detail:
-      "Structure brand entities, definitions, and facts so generative engines can quote you.",
-  },
-  {
-    id: "aio" as const,
-    name: "AIO",
-    full: "AI / Answer Optimization",
-    href: "/app/aio",
-    blurb: "Own the direct answer with extractable Q&A packages.",
-    detail:
-      "Craft question-led answers, atomic facts, and sources for answer engines.",
-  },
-];
-
 export const BRAND = {
   name: "Lumen",
-  tagline: "Be visible everywhere discovery happens.",
+  tagline: "The visibility OS for search, stores, and AI answers.",
   description:
-    "All-in-one SEO, ASO, GEO, and AIO workspace to illuminate your brand across search, app stores, and AI answers.",
+    "Lumen is an all-in-one SEO, ASO, GEO, and AIO intelligence platform — Site Explorer, Keywords, Backlinks, Site Audit, Rank Tracker, and AI citation monitoring in one workspace.",
 };
+
+export const LANDING_FEATURES = [
+  {
+    title: "Site Explorer",
+    body: "Domain Rating, organic traffic, top pages, keyword portfolios, and rival maps.",
+  },
+  {
+    title: "Keywords Explorer",
+    body: "Volume, KD, CPC, SERPs, AI Overviews, questions, and parent topics.",
+  },
+  {
+    title: "Backlink Index",
+    body: "Referring domains, anchors, new/lost links, and quality distributions.",
+  },
+  {
+    title: "Site Audit",
+    body: "Crawl health across technical SEO, content, CWV, schema, and mobile.",
+  },
+  {
+    title: "Rank Tracker",
+    body: "Daily positions, visibility, share of voice, and SERP feature shifts.",
+  },
+  {
+    title: "GEO + AIO Intel",
+    body: "Citation tracking across ChatGPT, Perplexity, Gemini, and answer boxes.",
+  },
+];

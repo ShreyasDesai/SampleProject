@@ -1,70 +1,113 @@
-"use client";
+import { Suspense } from "react";
+import type { Metadata } from "next";
+import { ExplorerSearch } from "@/components/app/ExplorerSearch";
+import { ToolHeader } from "@/components/app/ToolHeader";
+import { TrafficAreaChart, SimpleBarChart } from "@/components/ui/Charts";
+import { DataTable } from "@/components/ui/DataTable";
+import { EmptyState, MetricCard, Panel } from "@/components/ui/Primitives";
+import { analyzeGeo, formatNumber } from "@/lib/intel";
+import { TOOL_META } from "@/lib/nav";
 
-import { useState } from "react";
-import { AnalyzerForm, Field } from "@/components/app/AnalyzerForm";
-import { analyzeGeo } from "@/lib/analyzers";
+export const metadata: Metadata = { title: "GEO Visibility" };
 
-const SAMPLE = {
-  brand: "Lumen",
-  topic: "generative engine optimization",
-  entities:
-    "ChatGPT, Perplexity, Gemini, brand entity, citation, structured content, E-E-A-T",
-  content: `Generative engine optimization (GEO) is the practice of structuring brand content so AI answer engines can cite it accurately.
-
-Lumen helps teams improve generative engine optimization by clarifying brand entities, writing definition-led openings, and packing pages with verifiable facts.
-
-Key GEO practices:
-1. Lead with a crisp definition of the topic
-2. Name related entities and how they connect
-3. Include dated statistics and original research
-4. Use short, quotable sentences models can extract
-
-In 2025, more than 40% of product researchers start with an AI assistant. Brands that publish citeable GEO content earn attribution inside those answers.`,
-};
-
-export default function GeoPage() {
-  const [form, setForm] = useState(SAMPLE);
-
+function Content({ q }: { q?: string }) {
+  if (!q) {
+    return (
+      <EmptyState
+        title="Measure generative engine visibility"
+        body="Track brand citations and prompt coverage across ChatGPT, Perplexity, Gemini, Copilot, Claude, and AI Overviews."
+      />
+    );
+  }
+  const data = analyzeGeo(q);
   return (
-    <AnalyzerForm
-      title="GEO analyzer"
-      subtitle="Measure how citeable your content is for ChatGPT, Perplexity, Gemini, and similar generative engines."
-      onSample={() => setForm(SAMPLE)}
-      onAnalyze={() => analyzeGeo(form)}
-    >
-      <div className="grid gap-4 sm:grid-cols-2">
-        <Field label="Brand">
-          <input
-            className="input-field"
-            value={form.brand}
-            onChange={(e) => setForm({ ...form, brand: e.target.value })}
-            required
-          />
-        </Field>
-        <Field label="Target topic / query">
-          <input
-            className="input-field"
-            value={form.topic}
-            onChange={(e) => setForm({ ...form, topic: e.target.value })}
-            required
-          />
-        </Field>
+    <div className="space-y-4">
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <MetricCard label="Brand" value={data.brand} hint={data.domain} />
+        <MetricCard label="GEO score" value={data.overallScore} hint="/100" />
+        <MetricCard label="Citation share" value={`${data.citationShare}%`} />
+        <MetricCard label="Prompts tracked" value={data.prompts.length} />
       </div>
-      <Field label="Entities (comma-separated)">
-        <textarea
-          className="input-field min-h-24"
-          value={form.entities}
-          onChange={(e) => setForm({ ...form, entities: e.target.value })}
-        />
-      </Field>
-      <Field label="Content to optimize">
-        <textarea
-          className="input-field min-h-48"
-          value={form.content}
-          onChange={(e) => setForm({ ...form, content: e.target.value })}
-          required
-        />
-      </Field>
-    </AnalyzerForm>
+
+      <div className="grid gap-4 xl:grid-cols-2">
+        <Panel title="Engine scores">
+          <SimpleBarChart
+            data={data.engines.map((e) => ({ engine: e.engine, score: e.score }))}
+            xKey="engine"
+            dataKey="score"
+          />
+        </Panel>
+        <Panel title="Citation trend">
+          <TrafficAreaChart data={data.trend} dataKey="citations" />
+        </Panel>
+      </div>
+
+      <Panel title="Engine breakdown">
+        <DataTable headers={["Engine", "Score", "Citations", "Sentiment", "Sample answer"]}>
+          {data.engines.map((e) => (
+            <tr key={e.engine}>
+              <td className="font-semibold">{e.engine}</td>
+              <td>{e.score}</td>
+              <td>{formatNumber(e.citations)}</td>
+              <td>
+                <span className={`badge ${e.sentiment === "Positive" ? "badge-ok" : e.sentiment === "Mixed" ? "badge-warn" : "badge-muted"}`}>
+                  {e.sentiment}
+                </span>
+              </td>
+              <td className="max-w-[360px] text-ink-soft">{e.sampleAnswer}</td>
+            </tr>
+          ))}
+        </DataTable>
+      </Panel>
+
+      <div className="grid gap-4 xl:grid-cols-2">
+        <Panel title="Prompt monitor">
+          <DataTable headers={["Prompt", "Mentioned", "Pos", "Engine", "Cited URL"]} maxHeight={400}>
+            {data.prompts.map((p) => (
+              <tr key={p.prompt}>
+                <td className="max-w-[220px] font-medium">{p.prompt}</td>
+                <td>
+                  <span className={`badge ${p.mentioned ? "badge-ok" : "badge-danger"}`}>
+                    {p.mentioned ? "Yes" : "No"}
+                  </span>
+                </td>
+                <td>{p.position ?? "—"}</td>
+                <td>{p.engine}</td>
+                <td className="max-w-[160px] truncate text-sea">{p.citedUrl ?? "—"}</td>
+              </tr>
+            ))}
+          </DataTable>
+        </Panel>
+        <Panel title="Entity graph">
+          <DataTable headers={["Entity", "Strength", "Related"]} maxHeight={400}>
+            {data.entities.map((e) => (
+              <tr key={e.entity}>
+                <td className="font-semibold">{e.entity}</td>
+                <td>{e.strength}</td>
+                <td>{e.related.join(", ")}</td>
+              </tr>
+            ))}
+          </DataTable>
+        </Panel>
+      </div>
+    </div>
+  );
+}
+
+export default async function GeoPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const { q } = await searchParams;
+  const meta = TOOL_META["/app/geo"];
+  return (
+    <div className="space-y-5">
+      <ToolHeader path="/app/geo" />
+      <Suspense>
+        <ExplorerSearch placeholder={meta.placeholder} example={meta.example} />
+      </Suspense>
+      <Content q={q} />
+    </div>
   );
 }

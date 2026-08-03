@@ -17,7 +17,7 @@ const syne = Syne({
 
 export const metadata: Metadata = {
   title: {
-    default: `${BRAND.name} — SEO, ASO, GEO & AIO`,
+    default: `${BRAND.name} — SEO, ASO, GEO & AIO Intelligence`,
     template: `%s · ${BRAND.name}`,
   },
   description: BRAND.description,
@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${manrope.variable} ${syne.variable} h-full antialiased`}>
+    <html lang="en" data-scroll-behavior="smooth" className={`${manrope.variable} ${syne.variable} h-full antialiased`}>
       <body className="min-h-full font-sans text-ink">{children}</body>
     </html>
   );
