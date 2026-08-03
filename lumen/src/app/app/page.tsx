@@ -1,101 +1,124 @@
-import type { Metadata } from "next";
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { LiveSearch, LiveStatus, postJson } from "@/components/app/LiveSearch";
 import { MetricCard, Panel } from "@/components/ui/Primitives";
-import { TrafficAreaChart, SimpleBarChart } from "@/components/ui/Charts";
-import { exploreSite, formatMoney, formatNumber } from "@/lib/intel";
 import { NAV } from "@/lib/nav";
 
-export const metadata: Metadata = {
-  title: "Dashboard",
+type Project = {
+  id: string;
+  name: string;
+  domain: string;
+  url: string;
+  lastAuditAt?: string;
+  trackedKeywords: string[];
 };
 
-const WATCHLIST = ["ahrefs.com", "semrush.com", "moz.com", "notion.so"];
-
 export default function DashboardPage() {
-  const sites = WATCHLIST.map((d) => exploreSite(d));
-  const primary = sites[0]!;
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [info, setInfo] = useState<string | null>(
+    "Add your website to run a real crawl. Results are saved as a project.",
+  );
+
+  async function refresh() {
+    const res = await fetch("/api/project").then((r) => r.json());
+    setProjects(res.projects || []);
+  }
+
+  useEffect(() => {
+    refresh().catch(() => undefined);
+  }, []);
+
+  async function addSite(url: string) {
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await postJson<{
+        result: { domain: string; healthScore: number; pagesCrawled: number; errors: number };
+        project: Project;
+      }>("/api/audit", { url, maxPages: 10, saveProject: true });
+      setInfo(
+        `Crawled ${res.result.domain}: health ${res.result.healthScore}/100 across ${res.result.pagesCrawled} pages (${res.result.errors} errors).`,
+      );
+      await refresh();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to add site");
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <div className="space-y-6">
-      <header className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <p className="text-xs font-bold uppercase tracking-[0.14em] text-sea">Command center</p>
-          <h1 className="mt-1 font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
-            Visibility portfolio
-          </h1>
-          <p className="mt-2 max-w-2xl text-ink-soft">
-            Ahrefs/SEMrush-class workspace covering organic search, app stores, generative citations, and answer engines.
-          </p>
-        </div>
-        <Link href="/app/site-explorer?q=ahrefs.com" className="btn-primary">
-          Open Site Explorer
-        </Link>
+      <header>
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-sea">Get started</p>
+        <h1 className="mt-1 font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
+          Add your website
+        </h1>
+        <p className="mt-2 max-w-2xl text-ink-soft">
+          Lumen now runs <strong>live analysis</strong> on real URLs — crawl, audit, keyword research, and more.
+          Enter your domain to begin.
+        </p>
       </header>
 
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        <MetricCard label="Tracked domains" value={WATCHLIST.length} hint="Demo watchlist" />
+      <LiveSearch
+        placeholder="yourdomain.com"
+        example="example.com"
+        buttonLabel="Crawl & save project"
+        loading={loading}
+        onSubmit={addSite}
+      />
+      <LiveStatus error={error} info={info} />
+
+      <div className="grid gap-4 sm:grid-cols-3">
+        <MetricCard label="Projects" value={projects.length} />
+        <MetricCard label="Live crawl" value="Ready" hint="No API key needed" />
         <MetricCard
-          label="Portfolio organic traffic"
-          value={formatNumber(sites.reduce((a, b) => a + b.organicTraffic, 0))}
-          delta="+6.4%"
-          deltaPositive
-          hint="vs prior month"
-        />
-        <MetricCard
-          label="Portfolio keywords"
-          value={formatNumber(sites.reduce((a, b) => a + b.organicKeywords, 0))}
-        />
-        <MetricCard
-          label="AI citation share (avg)"
-          value={`${(sites.reduce((a, b) => a + b.aiVisibility, 0) / sites.length).toFixed(1)}%`}
-          hint="GEO visibility"
+          label="DataForSEO"
+          value="Optional"
+          hint="Settings → volume, SERP, backlinks"
         />
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-3">
-        <Panel title={`${primary.domain} traffic trend`} className="xl:col-span-2">
-          <TrafficAreaChart data={primary.trafficTrend} />
-        </Panel>
-        <Panel title="Position distribution">
-          <SimpleBarChart data={primary.positionDist} xKey="label" dataKey="count" />
-        </Panel>
-      </div>
-
-      <Panel title="Watchlist">
-        <div className="table-wrap !overflow-x-auto">
-          <table className="data-table">
-            <thead>
-              <tr>
-                <th>Domain</th>
-                <th>DR</th>
-                <th>Organic traffic</th>
-                <th>Keywords</th>
-                <th>Traffic value</th>
-                <th>Ref. domains</th>
-                <th>AI visibility</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              {sites.map((s) => (
-                <tr key={s.domain}>
-                  <td className="font-semibold text-sea">{s.domain}</td>
-                  <td>{s.dr}</td>
-                  <td>{formatNumber(s.organicTraffic)}</td>
-                  <td>{formatNumber(s.organicKeywords)}</td>
-                  <td>{formatMoney(s.trafficValue)}</td>
-                  <td>{formatNumber(s.refDomains)}</td>
-                  <td>{s.aiVisibility}%</td>
-                  <td>
-                    <Link className="text-sm font-semibold text-sea" href={`/app/site-explorer?q=${s.domain}`}>
-                      Explore
-                    </Link>
-                  </td>
+      <Panel title="Your websites">
+        {projects.length === 0 ? (
+          <p className="text-sm text-ink-soft">No projects yet. Crawl a site above to create one.</p>
+        ) : (
+          <div className="table-wrap">
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th>Domain</th>
+                  <th>URL</th>
+                  <th>Keywords tracked</th>
+                  <th>Last audit</th>
+                  <th></th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {projects.map((p) => (
+                  <tr key={p.id}>
+                    <td className="font-semibold">{p.domain}</td>
+                    <td className="max-w-[220px] truncate text-sea">{p.url}</td>
+                    <td>{p.trackedKeywords.length}</td>
+                    <td>{p.lastAuditAt ? new Date(p.lastAuditAt).toLocaleString() : "—"}</td>
+                    <td className="space-x-3 whitespace-nowrap text-sm">
+                      <Link className="font-semibold text-sea" href={`/app/site-explorer`}>
+                        Explore
+                      </Link>
+                      <Link className="font-semibold text-sea" href={`/app/site-audit`}>
+                        Audit
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </Panel>
 
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
@@ -107,7 +130,7 @@ export default function DashboardPage() {
                 <Icon className="h-4 w-4" />
                 <h2 className="font-display text-lg font-bold text-ink">{n.label}</h2>
               </div>
-              <p className="mt-2 text-sm text-ink-soft">Open module →</p>
+              <p className="mt-2 text-sm text-ink-soft">Open →</p>
             </Link>
           );
         })}
