@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fbf8f3;
+  --foreground: #0b1f1c;
+  --accent: #e85d38;
+  --surface: #ffffff;
+  --muted: #5a6f69;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes map-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(232, 93, 56, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(232, 93, 56, 0);
+  }
+}
+
+.location-pin {
+  animation: map-pulse 2.4s ease-out infinite;
+}
