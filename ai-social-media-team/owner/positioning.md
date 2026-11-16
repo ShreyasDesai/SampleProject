@@ -1,33 +1,38 @@
 # Positioning
 
 Owner file. Agents read this before scoring, briefing and drafting, and never edit it.
-Replace every [FILL IN: ...] prompt. Agents stop while any prompt is left.
-Each Example line shows the shape of an answer. Delete it once your own answer is in.
+
+> Assumptions to confirm: filled in by Claude from the Lumen product copy and README. Check the
+> audience, goals and proof before trusting the plan.
 
 ## What we are, in one sentence
-[FILL IN: what you sell, to whom, and why it is different]
-Example (Northwind Coffee): a neighbourhood roastery selling small-batch coffee to people who care where their beans come from.
+Lumen is a visibility workspace that checks how a website shows up in search, app stores and AI
+answers (SEO, ASO, GEO and AIO) in one place, for teams that do not want four separate tools.
 
 ## Who we are for
-[FILL IN: the people you most want to reach, in plain words]
-Example (Northwind Coffee): locals within walking distance, and home brewers who buy beans online.
+Founders, solo marketers and small growth teams who own their own website and want to see, in one
+workspace, what search engines, app stores and AI answer engines can find on it.
 
 ## Who we are not for
-[FILL IN: who you do not chase]
-Example (Northwind Coffee): offices looking for the cheapest bulk coffee.
+Large agencies that need enterprise reporting and white-label dashboards today, and anyone looking
+for a "guaranteed rankings" service.
 
 ## What we want people to believe
-[FILL IN: the one or two beliefs every post should support]
-Example (Northwind Coffee): fresh roasting makes a difference you can taste.
+1. Visibility now means search, stores and AI answers, not just Google rankings.
+2. You can start by crawling your own site for free and fixing what is broken.
 
 ## Proof we can use
-[FILL IN: real facts you can back up, with where the proof lives]
-Example (Northwind Coffee): we roast on site every week (see brand-os/brand-brain/messaging-bank.md).
+- Lumen crawls public pages, robots.txt and the sitemap without any API key (lumen/README.md).
+- Keyword ideas come live from Google Suggest and Datamuse without an API key (lumen/README.md).
+- ASO, GEO and AIO checks run on a live URL for on-page and extractability signals (lumen/README.md).
+- Lumen has 11 intelligence modules in one workspace (Lumen landing page).
+- Search volume, keyword difficulty, CPC, live SERP positions and backlinks need a DataForSEO
+  account (lumen/README.md). Never imply these work without it.
 
 ## Goals this quarter
-[FILL IN: what the team should move this quarter, in plain words]
-Example (Northwind Coffee): more online bean orders from home brewers.
+Get operators to try Lumen on their own domain: more people running "Crawl & save project", and a
+following on LinkedIn among founders and growth marketers.
 
 ## Topics we own
-[FILL IN: the subjects you want to be known for]
-Example (Northwind Coffee): roasting, origins, brewing at home.
+AI search visibility (GEO and AIO), technical site health, app store optimisation basics, and
+"do it yourself" SEO for small teams.

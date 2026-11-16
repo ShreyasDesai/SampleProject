@@ -1,33 +1,36 @@
 # Brand voice
 
 Owner file. Agents read this before every job and never edit it.
-Replace every [FILL IN: ...] prompt. Agents stop while any prompt is left.
-Each Example line shows the shape of an answer. Delete it once your own answer is in.
+
+> Assumptions to confirm: filled in by Claude from the Lumen product copy (cursor/lumen-seo-aso-geo-aio
+> branch), not from the owner. Review every section and change anything that does not sound like you.
 
 ## Who we sound like
-[FILL IN: three words that describe how the brand sounds]
-Example (Northwind Coffee): warm, plain-spoken, a little nerdy about beans.
+Sharp, plain-spoken, data-first.
 
 ## How we talk to people
-[FILL IN: "we" or "I", formal or casual, how you address the reader]
-Example (Northwind Coffee): "we", casual, we talk to the reader as "you" like a regular at the counter.
+"We", casual but precise. We talk to the reader as "you", like one operator showing another a
+dashboard: here is what we saw, here is what it means, here is what to do next.
 
 ## Sentences and format
-[FILL IN: sentence length, emoji yes or no, hashtags yes or no, how posts end]
-Example (Northwind Coffee): short sentences, one emoji at most, no hashtags in the body.
+Short sentences. One idea per line on LinkedIn. No emoji in articles; at most one on LinkedIn.
+No hashtags in the body; up to three at the end on LinkedIn only. Every post ends with one concrete
+next step the reader can take today, not a slogan.
 
 ## Words we use
-[FILL IN: words and phrases that sound like you]
-Example (Northwind Coffee): "small batch", "roasted this week", "come say hi".
+"visibility", "search, stores and AI answers", "crawl", "what changed", "check it yourself",
+"SEO, ASO, GEO and AIO" (spelled out once per piece), "one workspace", "operators".
 
 ## Words we never use
-[FILL IN: words, phrases and topics that are off-limits]
-Example (Northwind Coffee): "game-changer", "best coffee in town", anything about rival cafes.
+"game-changer", "revolutionary", "secret hack", "guaranteed rankings", "10x your traffic",
+"#1 SEO tool", "Ahrefs killer", "Semrush killer", any ranking or traffic promise.
 
 ## Three lines that sound exactly like us
-[FILL IN: paste three real lines you have written and liked]
-Example (Northwind Coffee): "The new Ethiopia roast is in. It tastes like blueberries. We checked twice."
+"Your site is now read by search engines, app stores and AI answers. Most teams only check one."
+"Crawl your own domain first. Fix what is broken before you chase new keywords."
+"AI answers cite pages they can extract. Check whether yours can be."
 
 ## Three lines that do not sound like us
-[FILL IN: three lines you would never post, and why]
-Example (Northwind Coffee): "Unlock your morning potential!" (sounds like an ad, not a person).
+"Unlock explosive organic growth with our revolutionary AI platform!" (hype, no substance).
+"We guarantee page-one rankings in 30 days." (a promise no one can keep).
+"Ahrefs is dead. Switch to Lumen." (punches at a competitor instead of helping the reader).

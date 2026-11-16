@@ -4,6 +4,7 @@
 > If your calendar lives in Airtable, keep these exact column names there and export it to this file each week,
 > or connect it later. The agents read the same columns either way.
 > Agents may add rows, always with the status `idea`.
+> Assumptions to confirm: starter rows written by Claude for the first two weeks.
 
 ## Status values
 | Status | Means | Set by |
@@ -21,13 +22,14 @@
 ## The calendar
 | ID | Publish date | Channel | Topic | Pillar | Goal | Keyword | Status | Brief | Draft file | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 001 | [FILL IN: YYYY-MM-DD] | [FILL IN: article, linkedin, instagram, facebook, tiktok, newsletter, gbp] | [FILL IN] | [FILL IN: from messaging-bank.md] | [FILL IN: reach, clicks, leads, sales] | [FILL IN: articles only] | ready | [FILL IN: one line, or a link to the brief] | | |
-| 002 | [FILL IN] | [FILL IN] | [FILL IN] | [FILL IN] | [FILL IN] | | idea | | | |
-
-Example row (Northwind Coffee): | 003 | [date] | linkedin | Why we print the roast date | Freshness | reach | | ready | Three things the roast date tells you | | |
+| 001 | 2026-11-18 | linkedin | Is your site visible in AI answers? Three things to check | AI visibility | reach | | ready | Explain GEO and AIO in plain words and give three checks (claims C3) | | |
+| 002 | 2026-11-20 | linkedin | Crawl your own site before chasing keywords | Fix the basics | clicks | | ready | robots.txt, sitemap and broken pages first (claim C1) | | |
+| 003 | 2026-11-24 | blog | What GEO and AIO mean for a small team's website | AI visibility | clicks | generative engine optimization | idea | Step-by-step article, one worked example | | Blog always waits for the owner |
+| 004 | 2026-11-25 | linkedin | Four tools or one workspace: SEO, ASO, GEO, AIO | One workspace | reach | | idea | Claim C4; no competitor names | | |
+| 005 | 2026-11-27 | linkedin | Which SEO numbers need a paid data source, and why | Honest data | reach | | idea | Claim C5 | | |
 
 ## When the calendar counts as thin
-- Thin means fewer than [FILL IN: how many ready or scheduled items a week before it counts as thin] items in the next [FILL IN: how far ahead you look]
+- Thin means fewer than 3 ready or scheduled items in the next 14 days.
 - What happens: the orchestrator runs /content-calendar-looks-thin. New rows arrive as `idea`. They become `ready` only when you, or owner/approval-bar.md, say so.
 
 ## How often each channel posts
