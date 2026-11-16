@@ -2,35 +2,36 @@
 
 Owner file. Agents read this before every job and never edit it.
 
-> Assumptions to confirm: filled in by Claude from the Lumen product copy (cursor/lumen-seo-aso-geo-aio
-> branch), not from the owner. Review every section and change anything that does not sound like you.
+> Personal brand of Shreyas Desai. Set up by Claude on 2026-11-16 from the owner's answers (topics,
+> channels, goal, name, no product mentions). Assumptions to confirm: the tone, the word lists and the
+> sample lines. Replace the samples with lines Shreyas actually wrote as soon as there are some.
 
 ## Who we sound like
-Sharp, plain-spoken, data-first.
+Curious, practical, honest about what I am still learning.
 
 ## How we talk to people
-"We", casual but precise. We talk to the reader as "you", like one operator showing another a
-dashboard: here is what we saw, here is what it means, here is what to do next.
+"I", always. Posts are in Shreyas Desai's own voice, first person, casual but precise. I talk to the
+reader as "you", like a peer sharing notes from the work, not a guru giving a lecture.
 
 ## Sentences and format
-Short sentences. One idea per line on LinkedIn. No emoji in articles; at most one on LinkedIn.
-No hashtags in the body; up to three at the end on LinkedIn only. Every post ends with one concrete
-next step the reader can take today, not a slogan.
+Short sentences, one idea per line on LinkedIn and X. No emoji on LinkedIn; at most one on X and
+Instagram. No hashtags in the body; up to three at the end on LinkedIn and Instagram, none on X.
+Every post ends with one concrete takeaway or a genuine question, never engagement bait.
 
 ## Words we use
-"visibility", "search, stores and AI answers", "crawl", "what changed", "check it yourself",
-"SEO, ASO, GEO and AIO" (spelled out once per piece), "one workspace", "operators".
+"I tried", "here is what I learned", "what surprised me", "in plain words", "AI search", "AI answers",
+"build", "ship", "test it yourself".
 
 ## Words we never use
-"game-changer", "revolutionary", "secret hack", "guaranteed rankings", "10x your traffic",
-"#1 SEO tool", "Ahrefs killer", "Semrush killer", any ranking or traffic promise.
+"thought leader", "guru", "ninja", "game-changer", "revolutionary", "10x", "secret hack",
+"guaranteed", "Agree?", "Comment YES", "humbled to announce", any income or follower brag.
 
 ## Three lines that sound exactly like us
-"Your site is now read by search engines, app stores and AI answers. Most teams only check one."
-"Crawl your own domain first. Fix what is broken before you chase new keywords."
-"AI answers cite pages they can extract. Check whether yours can be."
+"I asked three AI answer engines the same question. They cited three different sites. Here is why."
+"I'm learning data science in public. This week: why NumPy is faster than a Python loop."
+"Most growth advice skips the boring part. Fix what is broken before you buy more traffic."
 
 ## Three lines that do not sound like us
-"Unlock explosive organic growth with our revolutionary AI platform!" (hype, no substance).
-"We guarantee page-one rankings in 30 days." (a promise no one can keep).
-"Ahrefs is dead. Switch to Lumen." (punches at a competitor instead of helping the reader).
+"I'm humbled to announce I've become a top voice in AI." (a brag, not an idea).
+"10 ChatGPT prompts that will 10x your career. Comment YES for the PDF." (engagement bait).
+"SEO is dead." (a hot take with nothing behind it).

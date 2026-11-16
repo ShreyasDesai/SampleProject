@@ -3,45 +3,44 @@
 > Read by: content-engine, creative-studio, market-radar, reviews-reputation.
 > owner/positioning.md holds the version you signed off. This file is the working detail behind it.
 > If the two disagree, owner/positioning.md wins.
+> Personal brand of Shreyas Desai. Assumptions to confirm: written by Claude on 2026-11-16.
 
 ## 1. The one paragraph
-For founders and small growth teams, Lumen is the visibility workspace that checks how a site shows
-up in search, app stores and AI answers, because it crawls your own pages and tests them for AI
-extractability in one place. Unlike juggling separate SEO, ASO and AI-monitoring tools, we put
-SEO, ASO, GEO and AIO in one workspace.
+For founders, marketers and early-career builders, Shreyas Desai is the person who explains AI search,
+building with AI, growth and data science in plain words, because every post comes from something
+Shreyas actually tried. Unlike hype accounts, Shreyas shows the method and is honest about what is
+still being learned.
 
 ## 2. Who it is for
-- Best-fit customer: a founder or solo marketer who owns a site and has no SEO team.
-- Also buys from us: small agencies and growth teams that want one workspace for client checks.
-- Not for: anyone looking for guaranteed rankings or black-hat tactics.
+- Best-fit follower: a founder or marketer trying to understand AI search and AI-assisted building.
+- Also follows: early-career builders and data-science learners.
+- Not for: people chasing prompt packs and growth hacks.
 
 ## 3. The problem we solve
-"I don't know if my site shows up in ChatGPT or Perplexity, and the SEO tools I know don't tell me."
+"Everyone talks about AI search and AI agents, but nobody shows plainly how they work or what to do."
 
 ## 4. Category
-- We call what we sell: an SEO and AI visibility workspace.
-- We never call it: a rankings guarantee, a growth hack.
+- We call it: practical notes on AI search, building with AI and growth.
+- We never call it: thought leadership, guru content, an expert course.
 
 ## 5. What makes us different
 | Difference | Proof point ID (messaging-bank.md) | Who cares most |
 |---|---|---|
-| Checks AI extractability (GEO and AIO), not only rankings | P3 | founders worried about AI search |
-| Useful from day one without API keys | P1, P2 | solo marketers on no budget |
-| SEO, ASO, GEO and AIO in one workspace | P4 | teams tired of tool sprawl |
+| Builds with AI agents and shows the real setup | P1, P3 | founders and builders |
+| Learns in public, honestly | P2 | early-career learners |
 
-## 6. What the customer compares us with
-| Alternative | Why people choose it | Why they would switch to us |
+## 6. What the follower compares us with
+| Alternative | Why people choose it | Why they would follow Shreyas |
 |---|---|---|
-| Ahrefs or Semrush | Big data indexes, well known | They want AI-answer visibility and app store checks in the same place |
-| Google Search Console alone | Free and official | It shows Google only, not AI answers or app stores |
-| Doing nothing | No cost, no time | AI answers are taking clicks and they cannot see it |
+| AI hype accounts | Big promises, viral threads | They want methods that work, not hype |
+| Official docs and blogs | Accurate | They want it in plain words with a worked example |
 
-## 7. Competitors we watch
-| Competitor | Website | Social handles | What they are known for |
+## 7. Accounts we watch
+Market radar uses this list to spot topics. No one is named in posts without the owner's OK.
+| Account | Website | Social handles | What they are known for |
 |---|---|---|---|
-| Ahrefs | ahrefs.com | [VERIFY] | Backlink index, Site Explorer |
-| Semrush | semrush.com | [VERIFY] | All-in-one SEO and marketing suite |
+| [VERIFY] owner to add 3 to 5 creators in AI search and AI building | | | |
 
 ## 8. What we will never position as
-- A guaranteed way to rank
-- "The Ahrefs or Semrush killer"
+- An all-knowing expert
+- A seller of courses, prompt packs or guaranteed growth

@@ -2,57 +2,59 @@
 
 > Read by: content-engine, creative-studio, market-radar, reviews-reputation.
 > If this file and owner/brand-voice.md disagree, owner/brand-voice.md wins.
-> Assumptions to confirm: filled in by Claude from the Lumen product copy. Replace the samples in
-> sections 7 and 8 with lines the owner actually wrote as soon as there are some.
+> Personal brand of Shreyas Desai. Assumptions to confirm: written by Claude on 2026-11-16. Replace
+> sections 7 and 8 with real lines Shreyas wrote as soon as there are some.
 
 ## 1. We sound like
-Sharp, plain-spoken, data-first, helpful.
+Curious, practical, honest, generous.
 
 ## 2. What each trait means
 | Trait | What it means | Sounds like this | Never like this |
 |---|---|---|---|
-| Sharp | Get to the point in the first line | "Most sites are invisible to AI answers. Here is how to check yours." | "In today's ever-evolving digital landscape, visibility matters more than ever." |
-| Plain-spoken | Explain jargon the first time, then use it | "GEO (generative engine optimisation) means being cited in AI answers." | "Leverage GEO synergies to optimise your AIO surface." |
-| Data-first | Say what we checked and where it came from | "We crawled the page and found no sitemap entry for it." | "Your SEO is probably broken." |
-| Helpful | End with a step the reader can take today | "Open your robots.txt and look for a Disallow on /blog." | "Contact us to learn more!" |
+| Curious | Start from a question or something I tried | "I asked three AI answer engines the same question. Here is what came back." | "Here's everything you need to know about AI." |
+| Practical | Every post has something the reader can do | "Open your robots.txt and look for a Disallow line." | "Mindset is everything in growth." |
+| Honest | Say what I know, what I don't, and what I'm still learning | "I'm two weeks into NumPy. This part confused me." | "As an expert in AI..." |
+| Generous | Share the method, not just the result | "Here are the three checks I ran, so you can run them too." | "DM me for the secret." |
 
 ## 3. Who we are talking to
-- Reader: a founder or solo marketer who owns a website and has to grow it without a big team.
-- What they already know: Google Search Console exists; they have heard of SEO tools like Ahrefs and Semrush.
-- What they want from you: a quick way to see what is broken and what to fix first, including in AI answers.
-- What makes them stop reading: hype, vague promises, and walls of jargon.
+- Reader: a founder, marketer or early-career builder curious about AI search, building with AI and growth.
+- What they already know: they use ChatGPT or similar tools and have heard of SEO.
+- What they want from you: plain explanations and things they can try today.
+- What makes them stop reading: hype, bragging, jargon and engagement bait.
 
 ## 4. Point of view
-- We write as: "we" for the Lumen brand.
+- We write as: "I" — Shreyas Desai, in first person. Never "we" for the personal brand.
 - We speak to the reader as: "you".
 
 ## 5. Sentence style
-- Sentence length: short, mixed with the odd longer explanation.
-- Contractions (we're, it's): yes.
-- Emojis: never in articles or the newsletter; at most one on LinkedIn.
+- Sentence length: short, with the odd longer explanation.
+- Contractions (I'm, it's): yes.
+- Emojis: never on LinkedIn; at most one on X and Instagram.
 - Headings: sentence case.
 - Spelling: UK English.
 - Long forms: SEO = search engine optimisation, ASO = app store optimisation, GEO = generative engine optimisation, AIO = AI Overviews optimisation.
-- Words we always spell one way: Lumen, SEO, ASO, GEO, AIO, Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, DataForSEO, robots.txt.
+- Words we always spell one way: Shreyas Desai, SEO, GEO, AIO, ChatGPT, Perplexity, Gemini, Python, NumPy, Claude Code, Cursor.
+- Never name: Lumen, NearReach or any project by name (owner decision).
 
 ## 6. How the voice shifts by channel
 | Channel | Shift from the base voice |
 |---|---|
-| Articles | Longer and step by step, with headings and one worked example. |
-| LinkedIn | One sharp observation, one idea per line, up to about ten short lines, one step to try. |
-| Instagram | Not an active channel yet. |
-| Facebook | Not an active channel yet. |
-| TikTok | Not an active channel yet. |
-| Newsletter | Friendly roundup: what changed this week in search and AI answers, plus one Lumen tip. |
-| Review replies | Calm, thank people by first name, no jokes, sign off as "The Lumen team". |
-| Chat replies | Short and exact; link to the README or docs instead of guessing. |
+| Articles | Not an active channel yet. |
+| LinkedIn | The main channel. One idea per line, up to about ten short lines, one takeaway at the end. |
+| X | One sharp observation in one post, under 280 characters; threads of 3 to 5 posts for a how-to. No hashtags. |
+| Instagram | Carousel captions: a hook line, three to five short points, one takeaway. |
+| Facebook | Not an active channel. |
+| TikTok | Not an active channel. |
+| Newsletter | Not an active channel yet. |
+| Review replies | Not used for a personal brand. |
+| Chat replies | Comment and DM replies: short, warm, signed by no one (it is me). |
 
 ## 7. Samples that sound right
 Agents copy the rhythm, never the facts.
-1. "Your site is now read by search engines, app stores and AI answers. Most teams only check one."
-2. "Crawl your own domain first. Fix what is broken before you chase new keywords."
-3. "AI answers cite pages they can extract. Check whether yours can be."
+1. "I asked three AI answer engines the same question. They cited three different sites. Here is why."
+2. "I'm learning data science in public. This week: why NumPy is faster than a Python loop."
+3. "Most growth advice skips the boring part. Fix what is broken before you buy more traffic."
 
 ## 8. Samples that sound wrong
-1. "Unlock explosive organic growth with our revolutionary AI platform!" Hype, no substance.
-2. "We guarantee page-one rankings in 30 days." A promise no one can keep.
+1. "I'm humbled to announce I've become a top voice in AI." A brag, not an idea.
+2. "10 ChatGPT prompts that will 10x your career. Comment YES for the PDF." Engagement bait.

@@ -2,37 +2,34 @@
 
 Owner file. Agents read this before scoring, briefing and drafting, and never edit it.
 
-> Assumptions to confirm: filled in by Claude from the Lumen product copy and README. Check the
-> audience, goals and proof before trusting the plan.
+> Personal brand of Shreyas Desai. Set up by Claude on 2026-11-16 from the owner's answers.
+> Assumptions to confirm: the one-sentence summary, the audience and the proof.
 
 ## What we are, in one sentence
-Lumen is a visibility workspace that checks how a website shows up in search, app stores and AI
-answers (SEO, ASO, GEO and AIO) in one place, for teams that do not want four separate tools.
+Shreyas Desai shares practical, first-hand notes on SEO and AI search, building with AI, growth
+marketing and learning data science, for people who want to understand how these actually work.
 
 ## Who we are for
-Founders, solo marketers and small growth teams who own their own website and want to see, in one
-workspace, what search engines, app stores and AI answer engines can find on it.
+Founders, marketers, early-career builders and data-science learners who want plain-language,
+tested explanations of AI search, AI-assisted building and growth.
 
 ## Who we are not for
-Large agencies that need enterprise reporting and white-label dashboards today, and anyone looking
-for a "guaranteed rankings" service.
+People looking for get-rich-quick tips, prompt packs, or guaranteed growth hacks.
 
 ## What we want people to believe
-1. Visibility now means search, stores and AI answers, not just Google rankings.
-2. You can start by crawling your own site for free and fixing what is broken.
+1. Shreyas explains AI search and AI-assisted building clearly, from things Shreyas has actually tried.
+2. Learning in public, honestly, is worth following.
 
 ## Proof we can use
-- Lumen crawls public pages, robots.txt and the sitemap without any API key (lumen/README.md).
-- Keyword ideas come live from Google Suggest and Datamuse without an API key (lumen/README.md).
-- ASO, GEO and AIO checks run on a live URL for on-page and extractability signals (lumen/README.md).
-- Lumen has 11 intelligence modules in one workspace (Lumen landing page).
-- Search volume, keyword difficulty, CPC, live SERP positions and backlinks need a DataForSEO
-  account (lumen/README.md). Never imply these work without it.
+See brand-os/brand-brain/messaging-bank.md, section 4. Only proof listed there may be used.
+No product names: never mention Lumen, NearReach or any project by name (owner decision, 2026-11-16).
 
 ## Goals this quarter
-Get operators to try Lumen on their own domain: more people running "Crawl & save project", and a
-following on LinkedIn among founders and growth marketers.
+Thought leadership: become a recognised, trusted voice on AI search and building with AI. Measured by
+LinkedIn followers, saves and thoughtful comments, not by likes alone.
 
 ## Topics we own
-AI search visibility (GEO and AIO), technical site health, app store optimisation basics, and
-"do it yourself" SEO for small teams.
+1. SEO and AI search (GEO and AIO: being found and cited in AI answers)
+2. Building AI products (shipping with AI coding tools, in public)
+3. Growth marketing (practical, fundamentals first)
+4. Data science learning (Python, NumPy, ML, learned in public)

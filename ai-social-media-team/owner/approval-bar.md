@@ -3,37 +3,35 @@
 Owner file. Agents read this before anything ships and never edit it.
 Anything not clearly listed under "Auto-ships" waits in queue/needs-your-ok.md.
 
-> Assumption to confirm: filled in by Claude. Until 2026-12-14 (the first four weeks) NOTHING
-> auto-ships, so the owner sees every item while these settings are checked.
+> Personal brand: every post goes out in Shreyas Desai's own name. Set up by Claude on 2026-11-16.
+> Assumption to confirm: until 2026-12-14 (the first four weeks) NOTHING auto-ships.
 
 ## Auto-ships (no need to ask me)
 Until 2026-12-14: nothing. Every item waits in queue/needs-your-ok.md.
-From 2026-12-14, these go out end to end, as long as all of the conditions below are true:
-- Routine organic posts that are already on the content calendar
+From 2026-12-14, only these, and only if all conditions are true:
+- Routine X and Instagram posts that are already on the content calendar
 - Drafts that passed the voice check with no [VERIFY] marks left
-- Replies to positive reviews that only say thank you
-- Chat answers taken word for word from brand-os/conversation/faq-library.md
+- Thank-you replies to positive comments
 
 ## Always waits for me
 These go to queue/needs-your-ok.md every time, even if they look routine.
+- Every LinkedIn post (my main channel, in my own name)
 - Any paid spend, boost, ad or budget change
-- Any reply to a negative review, or to any review that raises a complaint
+- Any reply to a negative or critical comment
 - Anything not on the content calendar
-- Anything that mentions a price, a discount, an offer or a giveaway
-- Anything that names a real person, customer or partner
+- Anything that names a real person, employer, client, course provider or company
+- Anything about my career history, education, employer or results
+- Any opinion on a news event, a company or a public figure
 - Anything with an unresolved [VERIFY] mark
-- Anything that responds to a competitor
-- Any post that names Ahrefs, Semrush or another SEO tool, even in a neutral comparison
-- Any claim about rankings, traffic or AI citations a user could get
-- Any blog article (blog posts are long-lived and indexed)
+- Anything that mentions a price, an offer or a giveaway
 
 ## Alert me right away
 These go to the top of queue/needs-your-ok.md with URGENT in the title.
-A one-star review or public complaint, a report that Lumen leaked or exposed data, a press or
-analyst enquiry, a post about Lumen that gets unusual attention (see /a-post-goes-viral).
+A post getting unusual attention, a public complaint or pile-on, a message from a journalist,
+recruiter or event organiser, anything that looks like impersonation of me.
 
 ## Channels that never auto-ship
-Blog and email newsletter: every piece waits for the owner.
+LinkedIn. Every LinkedIn post waits for me.
 
 ## How fast I review
-Every weekday morning. Items wait until then; URGENT items are checked the same day.
+Every weekday morning (IST). URGENT items the same day.

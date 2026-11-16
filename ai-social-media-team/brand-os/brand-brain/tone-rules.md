@@ -3,25 +3,25 @@
 > Read by: content-engine (the voice check), creative-studio, market-radar, reviews-reputation.
 > The content engine checks every draft against this file. One broken rule sends the draft to
 > queue/held-for-voice-review.md with the rule number named, for example "failed N3".
-> Assumptions to confirm: filled in by Claude. If a rule fails every draft, fix the rule.
+> Personal brand of Shreyas Desai. Assumptions to confirm: written by Claude on 2026-11-16.
 
 ## Always
 | # | Rule | How to check it |
 |---|---|---|
-| A1 | Say what the reader gets in the first line | The first line names a problem or a result, not the brand |
-| A2 | End with one step the reader can take today | The last line is a concrete action |
+| A1 | Open with a question, an observation or something I tried | The first line is not a generic statement or a brag |
+| A2 | End with one takeaway the reader can use, or a genuine question | The last line is a concrete step or a real question, not "Agree?" |
 | A3 | Spell out SEO, ASO, GEO or AIO the first time each appears in a piece | Each acronym has its long form once |
-| A4 | Say where every fact came from | Each fact maps to a source in the draft's front matter |
+| A4 | Write in first person as Shreyas ("I") | No "we" for the personal brand |
+| A5 | Say where every fact came from | Each fact maps to a source in the draft's front matter |
 
 ## Never say
-Words and phrases that fail the check on sight.
 | # | Never say | Say instead |
 |---|---|---|
-| N1 | "game-changer" / "revolutionary" | say what it does |
-| N2 | "guaranteed rankings" / "page one in 30 days" | "here is what to fix first" |
-| N3 | "10x your traffic" or any traffic promise | "see what is holding the page back" |
-| N4 | "Ahrefs killer" / "Semrush killer" | name what Lumen checks, not who it beats |
-| N5 | "in today's digital landscape" | start with the point |
+| N1 | "thought leader", "guru", "expert" about myself | describe what I did |
+| N2 | "game-changer", "revolutionary", "10x" | say what it does |
+| N3 | "Agree?", "Comment YES", "Like if..." | ask a real question or end on the takeaway |
+| N4 | "humbled to announce", "thrilled to share" | just say the thing |
+| N5 | "X is dead" | say what changed and why |
 
 ## Never do
 | # | Rule |
@@ -29,21 +29,22 @@ Words and phrases that fail the check on sight.
 | D1 | Invent a number, a customer name, a quote or a review. |
 | D2 | Make a claim that is not in messaging-bank.md. |
 | D3 | Tag or name a real person without their permission. |
-| D4 | Imply volume, keyword difficulty, CPC, SERP positions or backlinks work without a DataForSEO account. |
-| D5 | Mock or attack a competitor by name. |
+| D4 | Name Lumen, NearReach or any of Shreyas's projects or products. |
+| D5 | Invent career history, job titles, employers, education or results for Shreyas. |
+| D6 | Present a guess about how an AI engine or Google ranks pages as fact. |
 
 ## Topics we do not touch
 | Topic | What to do instead |
 |---|---|
-| Black-hat SEO (link buying, cloaking, scraping other sites) | Leave it out |
-| Predictions about Google algorithm updates | Leave it out, or hand it to the owner |
-| Pricing and plans | Hand it to the owner |
+| Politics, religion, layoffs and news drama | Leave it out |
+| Investment or financial advice | Leave it out |
+| Criticism of a named company or person | Hand it to the owner |
+| Black-hat SEO (link buying, cloaking, scraping) | Leave it out |
 
 ## Sensitive moments
-When news, a complaint or a crisis makes the usual tone wrong:
-- What pauses scheduled posts: a security or data incident involving Lumen, a major outage, or a serious public complaint.
-- Who decides when posting starts again: the owner.
-- Tone in a reply to an upset customer: calm, thank them, say what we will check, never argue in public.
+- What pauses scheduled posts: a public pile-on, a personal or family matter, a major tragedy in the news.
+- Who decides when posting starts again: Shreyas Desai.
+- Tone in a reply to an upset person: calm, thank them, never argue in public; hand it to the owner.
 
 ## Pass or fail
 A draft passes only when every Always rule holds and no Never say or Never do rule is broken.

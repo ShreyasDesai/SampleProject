@@ -68,7 +68,7 @@ Every piece of work moves through these six steps, in this order:
 
 ## Drafts convention
 - Save every draft as `drafts/YYYY-MM-DD-<channel>-<slug>.md`.
-- `<channel>` is one of: linkedin, instagram, facebook, tiktok, youtube, blog, gbp, email, chat.
+- `<channel>` is one of: linkedin, x, instagram, facebook, tiktok, youtube, blog, gbp, email, chat.
 - `<slug>` is 3 to 6 lowercase words joined with hyphens.
 - Start each draft with front matter: channel, brief, voice_check, sources.
 - Never overwrite a draft. A new version gets `-v2`, `-v3` on the end of the slug.

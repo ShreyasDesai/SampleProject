@@ -3,36 +3,37 @@
 > Read by: content-engine, creative-studio, market-radar, reviews-reputation.
 > Every claim an agent may make lives in this file. If a claim is not here, no agent makes it.
 > A number goes in only if you can name where it came from.
-> Assumptions to confirm: filled in by Claude from the Lumen README and landing page only.
+> Personal brand of Shreyas Desai. Assumptions to confirm: written by Claude on 2026-11-16 from what
+> is visible in Shreyas's own GitHub repo. Add real career facts here yourself; agents never invent them.
 
 ## 1. Core message
-Lumen shows how your site is seen by search engines, app stores and AI answers, in one workspace.
+I share what I learn about AI search, building with AI, growth and data science, in plain words, from things I have actually tried.
 
 ## 2. Message pillars
 | Pillar | What we say about it | Proof point IDs |
 |---|---|---|
-| AI visibility | Search now includes AI answers. Pages get cited only if they can be extracted. | P3 |
-| Fix the basics | Start by crawling your own site and fixing what is broken. | P1 |
-| One workspace | SEO, ASO, GEO and AIO in one place instead of four tools. | P4 |
-| Honest data | Some numbers need a paid data source, and we say so. | P5 |
+| SEO and AI search | Being found now means search results and AI answers. Here is how each works, in plain words. | general knowledge (cite sources) |
+| Building with AI | I build software with AI coding agents and share how it really goes. | P1, P3 |
+| Growth marketing | Fundamentals first: fix what is broken before buying more reach. | general knowledge (cite sources) |
+| Learning data science | I'm learning Python, NumPy and ML in public, mistakes included. | P2 |
 
 ## 3. Approved claims
 | ID | Claim (exact wording) | Proof point ID | Use on | Valid until |
 |---|---|---|---|---|
-| C1 | Lumen crawls your public pages, robots.txt and sitemap without an API key. | P1 | all channels | no end |
-| C2 | Keyword ideas come live from Google Suggest and Datamuse, no API key needed. | P2 | all channels | no end |
-| C3 | Lumen checks a live URL for on-page and AI extractability signals. | P3 | all channels | no end |
-| C4 | Lumen brings 11 intelligence modules into one workspace. | P4 | all channels | no end |
-| C5 | Search volume, keyword difficulty, CPC, live SERP positions and backlinks need a DataForSEO account. | P5 | all channels | no end |
+| C1 | I build software with AI coding agents such as Cursor and Claude Code. | P1 | all channels | no end |
+| C2 | I'm learning data science with Python and NumPy, in public. | P2 | all channels | no end |
+| C3 | I set up my own social media team as AI agents in Claude Code: one orchestrator and eight departments. | P3 | all channels | no end |
+
+General, well-established how-to facts (for example what robots.txt or a sitemap does, how a NumPy
+array differs from a Python list) may be used when the draft lists a source for them. Anything
+contested, new or about how a specific AI engine or Google ranks pages gets a [VERIFY] mark.
 
 ## 4. Proof points
 | ID | Proof | Type | Where the proof lives | OK to quote publicly |
 |---|---|---|---|---|
-| P1 | Site Explorer and Site Audit work without API keys | demo | lumen/README.md, "What works without API keys" | yes |
-| P2 | Keywords Explorer uses Google Suggest and Datamuse live | demo | lumen/README.md | yes |
-| P3 | ASO, GEO and AIO checks run on a live URL | demo | lumen/README.md | yes |
-| P4 | "11 Intelligence modules" | figure | Lumen landing page (lumen/src/app/page.tsx) | yes |
-| P5 | DataForSEO is required for index-grade data | demo | lumen/README.md, "What needs DataForSEO" | yes |
+| P1 | Branches built with Cursor agents and this repo built with Claude Code | demo | github.com/ShreyasDesai/SampleProject (cursor/* branches, ai-social-media-team/) | yes, without naming the projects |
+| P2 | Python and NumPy notebooks from data-science coursework | demo | numpy.ipynb, hero_vired_notebook.ipynb in the repo | yes; naming the course provider waits for the owner |
+| P3 | The ai-social-media-team project: 9 agents, 8 playbooks | demo | ai-social-media-team/ in the repo | yes |
 
 ## 5. Customer words we may quote
 None yet. Do not quote anyone until a row with permission is added here.
@@ -40,17 +41,16 @@ None yet. Do not quote anyone until a row with permission is added here.
 ## 6. Offers and calls to action
 | CTA wording | Where it points | Use on | Live from | Live until |
 |---|---|---|---|---|
-| Crawl your own domain in Lumen | No link. Do not add a URL until the owner adds one here | all channels | 2026-11-16 | no end |
+| Follow along, I post what I learn each week | No link | LinkedIn, X, Instagram | 2026-11-16 | no end |
 
 ## 7. Names we spell one way
 | Thing | Exact spelling |
 |---|---|
-| Brand | Lumen |
-| Product | Site Explorer, Keywords Explorer, Site Audit, Rank Tracker |
-| Product | GEO + AIO Intel, Backlink Index |
+| Person | Shreyas Desai |
+| Tools | ChatGPT, Perplexity, Gemini, Claude Code, Cursor, Python, NumPy |
 | Acronym | SEO (search engine optimisation), ASO (app store optimisation), GEO (generative engine optimisation), AIO (AI Overviews optimisation) |
 
 ## 8. Retired claims
 | Claim | Retired on | Why |
 |---|---|---|
-| "Built to compete with Ahrefs and Semrush" | 2026-11-16 | Names competitors and implies parity without DataForSEO; keep it off social |
+| All Lumen product claims (old C1 to C5) | 2026-11-16 | Rebranded to Shreyas Desai's personal brand; no product mentions |
