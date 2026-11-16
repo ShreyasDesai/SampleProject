@@ -40,7 +40,7 @@ None yet. Do not quote anyone until a row with permission is added here.
 ## 6. Offers and calls to action
 | CTA wording | Where it points | Use on | Live from | Live until |
 |---|---|---|---|---|
-| Crawl your own domain in Lumen | [VERIFY] public Lumen URL not set yet | all channels | 2026-11-16 | no end |
+| Crawl your own domain in Lumen | No link. Do not add a URL until the owner adds one here | all channels | 2026-11-16 | no end |
 
 ## 7. Names we spell one way
 | Thing | Exact spelling |
@@ -48,6 +48,7 @@ None yet. Do not quote anyone until a row with permission is added here.
 | Brand | Lumen |
 | Product | Site Explorer, Keywords Explorer, Site Audit, Rank Tracker |
 | Product | GEO + AIO Intel, Backlink Index |
+| Acronym | SEO (search engine optimisation), ASO (app store optimisation), GEO (generative engine optimisation), AIO (AI Overviews optimisation) |
 
 ## 8. Retired claims
 | Claim | Retired on | Why |

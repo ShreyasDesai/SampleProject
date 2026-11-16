@@ -22,3 +22,9 @@ Format: YYYY-MM-DD HH:MM | <agent> | <action> | <file>
 2026-11-16 16:43 | content-engine | wrote draft for B-20261116-02 (calendar row 002), claim C1, 1 [VERIFY] (CTA URL) | drafts/2026-11-20-linkedin-crawl-before-keywords.md
 2026-11-16 16:44 | content-engine | voice check pass (A1-A4 hold, no N or D rule broken); calendar row 002 not moved to drafted (calendar edit not permitted this run) | drafts/2026-11-20-linkedin-crawl-before-keywords.md
 2026-11-16 16:44 | content-engine | returned B-20261116-02 to orchestrator: draft, voice_check pass, [VERIFY] on CTA URL | -
+2026-11-16 17:00 | content-engine | re-run on B-20261116-01 after rule change (AIO = "AI Overviews optimisation"; LinkedIn up to about ten short lines); wrote v2, claim C3, AIO [VERIFY] resolved, 0 [VERIFY]; v1 left unchanged | drafts/2026-11-18-linkedin-ai-answers-three-checks-v2.md
+2026-11-16 17:01 | content-engine | voice check pass on v2 (A1-A4 hold, no N or D rule broken) | drafts/2026-11-18-linkedin-ai-answers-three-checks-v2.md
+2026-11-16 17:01 | content-engine | returned B-20261116-01 v2 to orchestrator: draft, voice_check pass, no [VERIFY] | -
+2026-11-16 17:02 | content-engine | re-run on B-20261116-02 after rule change (CTA "Crawl your own domain in Lumen" has no link); wrote v2, claim C1, CTA URL [VERIFY] removed, ends on CTA with no link, 0 [VERIFY]; v1 left unchanged | drafts/2026-11-20-linkedin-crawl-before-keywords-v2.md
+2026-11-16 17:03 | content-engine | voice check pass on v2 (A1-A4 hold, no N or D rule broken) | drafts/2026-11-20-linkedin-crawl-before-keywords-v2.md
+2026-11-16 17:03 | content-engine | returned B-20261116-02 v2 to orchestrator: draft, voice_check pass, no [VERIFY] | -

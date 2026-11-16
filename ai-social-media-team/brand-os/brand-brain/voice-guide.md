@@ -32,13 +32,14 @@ Sharp, plain-spoken, data-first, helpful.
 - Emojis: never in articles or the newsletter; at most one on LinkedIn.
 - Headings: sentence case.
 - Spelling: UK English.
+- Long forms: SEO = search engine optimisation, ASO = app store optimisation, GEO = generative engine optimisation, AIO = AI Overviews optimisation.
 - Words we always spell one way: Lumen, SEO, ASO, GEO, AIO, Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, DataForSEO, robots.txt.
 
 ## 6. How the voice shifts by channel
 | Channel | Shift from the base voice |
 |---|---|
 | Articles | Longer and step by step, with headings and one worked example. |
-| LinkedIn | One sharp observation, three to six short lines, one step to try. |
+| LinkedIn | One sharp observation, one idea per line, up to about ten short lines, one step to try. |
 | Instagram | Not an active channel yet. |
 | Facebook | Not an active channel yet. |
 | TikTok | Not an active channel yet. |
