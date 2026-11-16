@@ -28,3 +28,17 @@ Format: YYYY-MM-DD HH:MM | <agent> | <action> | <file>
 2026-11-16 17:02 | content-engine | re-run on B-20261116-02 after rule change (CTA "Crawl your own domain in Lumen" has no link); wrote v2, claim C1, CTA URL [VERIFY] removed, ends on CTA with no link, 0 [VERIFY]; v1 left unchanged | drafts/2026-11-20-linkedin-crawl-before-keywords-v2.md
 2026-11-16 17:03 | content-engine | voice check pass on v2 (A1-A4 hold, no N or D rule broken) | drafts/2026-11-20-linkedin-crawl-before-keywords-v2.md
 2026-11-16 17:03 | content-engine | returned B-20261116-02 v2 to orchestrator: draft, voice_check pass, no [VERIFY] | -
+2026-11-16 17:30 | orchestrator | weekly loop start (personal brand): no owner/STOP, owner files filled, no signal exports, calendar not thin (4 ready in 14 days) | -
+2026-11-16 17:31 | orchestrator | decision: calendar rows 006-011 fall one day off posting-schedule days; proposed slots 006 Wed 18, 007 Thu 19, 008 Fri 20, 009 Tue 24; X Mon 16, LinkedIn Tue 17, Instagram Sat 21 left empty | brand-os/social/posting-schedule.md
+2026-11-16 17:32 | orchestrator | wrote brief B-20261116-03 (calendar row 006) | drafts/briefs/2026-11-16-content-engine-ai-team-day-one.md
+2026-11-16 17:33 | orchestrator | wrote brief B-20261116-04 (calendar row 007) | drafts/briefs/2026-11-16-content-engine-ai-answers-cited-checks.md
+2026-11-16 17:34 | orchestrator | wrote brief B-20261116-05 (calendar row 008) | drafts/briefs/2026-11-16-content-engine-numpy-vs-python-loop.md
+2026-11-16 17:35 | orchestrator | wrote brief B-20261116-06 (calendar row 009) | drafts/briefs/2026-11-16-content-engine-ai-team-wiring.md
+2026-11-16 17:36 | orchestrator | set rows 006-009 to briefed with brief paths (earlier Brief-column text kept in brackets) | brand-os/content/content-calendar.md
+2026-11-16 17:37 | orchestrator | decision: rows 010 (X) and 011 (Instagram) are idea, not briefed; no creative-studio brief; noted for owner | drafts/briefs/2026-11-16-week-plan.md
+2026-11-16 17:38 | orchestrator | queued Q-20261116-03 confirm publish slots for rows 006-009 | queue/needs-your-ok.md
+2026-11-16 17:39 | orchestrator | wrote week plan (notes Q-20261116-01 looks resolved and Q-20261116-02 obsolete, both left open for owner) | drafts/briefs/2026-11-16-week-plan.md
+2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-03 | drafts/briefs/2026-11-16-content-engine-ai-team-day-one.md
+2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-04 | drafts/briefs/2026-11-16-content-engine-ai-answers-cited-checks.md
+2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-05 | drafts/briefs/2026-11-16-content-engine-numpy-vs-python-loop.md
+2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-06 | drafts/briefs/2026-11-16-content-engine-ai-team-wiring.md
