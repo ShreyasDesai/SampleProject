@@ -49,13 +49,13 @@ URGENT items go at the top of "Open". OVER CAP in a title means the spend would 
 - Owner note:
 
 ### Q-20261116-03: Confirm publish slots for calendar rows 006-009 (dates fall one day off the posting days)
-- [ ] Approve
+- [x] Approve
 - [ ] Reject
 - What: rows 006-009 go out on these slots instead of their calendar dates: 006 X Wed 2026-11-18 19:00, 007 LinkedIn Thu 2026-11-19 09:00, 008 X Fri 2026-11-20 19:00, 009 LinkedIn Tue 2026-11-24 09:00 (IST). Each calendar date is one day after a posting-schedule day (2026-11-16 is a Monday). If you approve, please update the Publish date column yourself or say so in the note; drafts still wait for their own approval.
 - Why it waits: the content calendar and posting schedule are owner-set, and moving a publish date changes what is on the content calendar ("Anything not on the content calendar", owner/approval-bar.md). The orchestrator may only set Status and Brief.
 - File: drafts/briefs/2026-11-16-week-plan.md
 - Spend: none
 - Requested by: orchestrator for brief B-20261116-03, B-20261116-04, B-20261116-05, B-20261116-06
-- Owner note:
+- Owner note: Approved by Shreyas in chat on 2026-11-16 ("fix the calendar dates"). Calendar dates updated: 006-009 as proposed; idea rows 010 to 2026-11-23, 011 to 2026-11-28, 012 to 2026-11-26, 013 to 2026-12-01.
 
 ## Done

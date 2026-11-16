@@ -28,14 +28,14 @@
 | 003 | 2026-11-24 | blog | GEO and AIO for a small team (Lumen) | AI visibility | clicks | | dropped | | | Rebranded |
 | 004 | 2026-11-25 | linkedin | Four tools or one workspace (Lumen) | One workspace | reach | | dropped | | | Rebranded |
 | 005 | 2026-11-27 | linkedin | Which SEO numbers need paid data (Lumen) | Honest data | reach | | dropped | | | Rebranded |
-| 006 | 2026-11-17 | x | I set up my social media team as AI agents in Claude Code, day 1 | Building with AI | reach | | briefed | drafts/briefs/2026-11-16-content-engine-ai-team-day-one.md (earlier text here: Claim C3; what the orchestrator does, in one post) | | |
-| 007 | 2026-11-18 | linkedin | I asked AI answer engines the same question: how to check if your site gets cited | SEO and AI search | reach | | briefed | drafts/briefs/2026-11-16-content-engine-ai-answers-cited-checks.md (earlier text here: Explain GEO and AIO plainly, three checks anyone can run; no product names) | | |
-| 008 | 2026-11-19 | x | Learning in public: why NumPy is faster than a Python loop | Learning data science | reach | | briefed | drafts/briefs/2026-11-16-content-engine-numpy-vs-python-loop.md (earlier text here: Claim C2; one plain explanation, sourced) | | |
-| 009 | 2026-11-20 | linkedin | How my 9-agent social media team is wired (and where I stay in control) | Building with AI | reach | | briefed | drafts/briefs/2026-11-16-content-engine-ai-team-wiring.md (earlier text here: Claim C3; orchestrator, departments, approval queue, kill switch) | | |
-| 010 | 2026-11-21 | x | Fix what is broken before you buy more traffic | Growth marketing | reach | | idea | | | |
-| 011 | 2026-11-22 | instagram | Carousel: SEO vs GEO vs AIO in plain words | SEO and AI search | reach | | idea | Needs a visual from creative-studio | | |
-| 012 | 2026-11-24 | linkedin | One growth fundamental I wish I'd learned first | Growth marketing | reach | | idea | | | |
-| 013 | 2026-11-26 | linkedin | Learning data science in public: what week one taught me | Learning data science | reach | | idea | Claim C2 | | |
+| 006 | 2026-11-18 | x | I set up my social media team as AI agents in Claude Code, day 1 | Building with AI | reach | | briefed | drafts/briefs/2026-11-16-content-engine-ai-team-day-one.md (earlier text here: Claim C3; what the orchestrator does, in one post) | | |
+| 007 | 2026-11-19 | linkedin | I asked AI answer engines the same question: how to check if your site gets cited | SEO and AI search | reach | | briefed | drafts/briefs/2026-11-16-content-engine-ai-answers-cited-checks.md (earlier text here: Explain GEO and AIO plainly, three checks anyone can run; no product names) | | |
+| 008 | 2026-11-20 | x | Learning in public: why NumPy is faster than a Python loop | Learning data science | reach | | briefed | drafts/briefs/2026-11-16-content-engine-numpy-vs-python-loop.md (earlier text here: Claim C2; one plain explanation, sourced) | | |
+| 009 | 2026-11-24 | linkedin | How my 9-agent social media team is wired (and where I stay in control) | Building with AI | reach | | briefed | drafts/briefs/2026-11-16-content-engine-ai-team-wiring.md (earlier text here: Claim C3; orchestrator, departments, approval queue, kill switch) | | |
+| 010 | 2026-11-23 | x | Fix what is broken before you buy more traffic | Growth marketing | reach | | idea | | | |
+| 011 | 2026-11-28 | instagram | Carousel: SEO vs GEO vs AIO in plain words | SEO and AI search | reach | | idea | Needs a visual from creative-studio | | |
+| 012 | 2026-11-26 | linkedin | One growth fundamental I wish I'd learned first | Growth marketing | reach | | idea | | | |
+| 013 | 2026-12-01 | linkedin | Learning data science in public: what week one taught me | Learning data science | reach | | idea | Claim C2 | | |
 
 ## When the calendar counts as thin
 - Thin means fewer than 3 ready or scheduled items in the next 14 days.
