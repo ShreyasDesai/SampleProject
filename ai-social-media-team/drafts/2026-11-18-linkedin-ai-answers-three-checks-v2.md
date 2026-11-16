@@ -5,7 +5,7 @@ calendar_id: "001"
 version: v2
 previous_version: drafts/2026-11-18-linkedin-ai-answers-three-checks.md (v1, unchanged)
 changes_from_v1:
-  - "AIO long form now 'AI Overviews optimisation' (voice-guide.md section 5; messaging-bank.md section 7); [VERIFY] removed"
+  - "AIO long form now 'AI Overviews optimisation' (voice-guide.md section 5; messaging-bank.md section 7); verify mark removed"
   - "Hook, structure, length and every other line kept as in v1"
 keyword: none
 claims_used: [C3]

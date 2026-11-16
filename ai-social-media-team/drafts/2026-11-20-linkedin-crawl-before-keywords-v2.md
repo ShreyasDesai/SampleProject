@@ -5,7 +5,7 @@ calendar_id: "002"
 version: v2
 previous_version: drafts/2026-11-20-linkedin-crawl-before-keywords.md (v1, unchanged)
 changes_from_v1:
-  - "CTA URL [VERIFY] removed: messaging-bank.md section 6 now says the CTA 'Crawl your own domain in Lumen' has no link and no URL is added"
+  - "CTA URL verify mark removed: messaging-bank.md section 6 now says the CTA 'Crawl your own domain in Lumen' has no link and no URL is added"
   - "Post still ends on the CTA wording, with no link"
   - "Hook, structure, length and every other line kept as in v1"
 keyword: none
