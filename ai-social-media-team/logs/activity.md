@@ -42,3 +42,17 @@ Format: YYYY-MM-DD HH:MM | <agent> | <action> | <file>
 2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-04 | drafts/briefs/2026-11-16-content-engine-ai-answers-cited-checks.md
 2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-05 | drafts/briefs/2026-11-16-content-engine-numpy-vs-python-loop.md
 2026-11-16 17:40 | orchestrator | hand-off: content-engine on B-20261116-06 | drafts/briefs/2026-11-16-content-engine-ai-team-wiring.md
+2026-11-16 18:00 | content-engine | job start: no ower/STOP check needed note below; owner/STOP not present; calendar rows 006-009 are `briefed` (not `ready`), drafting on the orchestrator's hand-off; calendar dates match brief Return paths | brand-os/content/content-calendar.md
+2026-11-16 18:05 | content-engine | wrote draft for B-20261116-03 (calendar row 006), X single post 269 chars, claim C3, 0 [VERIFY] | drafts/2026-11-18-x-ai-team-day-one.md
+2026-11-16 18:06 | content-engine | voice check pass (A1-A5 hold, no N or D rule broken); calendar row not moved | drafts/2026-11-18-x-ai-team-day-one.md
+2026-11-16 18:07 | content-engine | correction to the 18:00 line: the words "no ower/STOP check needed note below;" are a typo, read as "owner/STOP checked before each job, not present" | -
+2026-11-16 18:08 | content-engine | returned B-20261116-03 to orchestrator: draft, voice_check pass, no [VERIFY] | -
+2026-11-16 18:15 | content-engine | wrote draft for B-20261116-04 (calendar row 007), LinkedIn, no claim about Shreyas (question hook instead of an untested "I asked" opener; that opener kept as hook B with [VERIFY]), 1 [VERIFY] in body (crawler names / effect on citations), no hashtags | drafts/2026-11-19-linkedin-ai-answers-cited-checks.md
+2026-11-16 18:16 | content-engine | voice check pass (A1-A5 hold, no N or D rule broken); calendar row not moved | drafts/2026-11-19-linkedin-ai-answers-cited-checks.md
+2026-11-16 18:17 | content-engine | returned B-20261116-04 to orchestrator: draft, voice_check pass, [VERIFY] in check 3 and in hook option B; source URLs not opened (no network) | -
+2026-11-16 18:25 | content-engine | wrote draft for B-20261116-05 (calendar row 008), X single post 270 chars, claim C2, 0 [VERIFY], NumPy docs cited | drafts/2026-11-20-x-numpy-vs-python-loop.md
+2026-11-16 18:26 | content-engine | voice check pass (A1-A5 hold, no N or D rule broken); calendar row not moved | drafts/2026-11-20-x-numpy-vs-python-loop.md
+2026-11-16 18:27 | content-engine | returned B-20261116-05 to orchestrator: draft, voice_check pass, no [VERIFY]; source URL not opened (no network) | -
+2026-11-16 18:35 | content-engine | wrote draft for B-20261116-06 (calendar row 009), LinkedIn, claim C3, kill-switch opener to keep it distinct from row 006, 0 [VERIFY], no hashtags | drafts/2026-11-24-linkedin-ai-team-wiring.md
+2026-11-16 18:36 | content-engine | voice check pass (A1-A5 hold, no N or D rule broken); calendar row not moved | drafts/2026-11-24-linkedin-ai-team-wiring.md
+2026-11-16 18:37 | content-engine | returned B-20261116-06 to orchestrator: draft, voice_check pass, no [VERIFY] | -
