@@ -56,3 +56,13 @@ Format: YYYY-MM-DD HH:MM | <agent> | <action> | <file>
 2026-11-16 18:35 | content-engine | wrote draft for B-20261116-06 (calendar row 009), LinkedIn, claim C3, kill-switch opener to keep it distinct from row 006, 0 [VERIFY], no hashtags | drafts/2026-11-24-linkedin-ai-team-wiring.md
 2026-11-16 18:36 | content-engine | voice check pass (A1-A5 hold, no N or D rule broken); calendar row not moved | drafts/2026-11-24-linkedin-ai-team-wiring.md
 2026-11-16 18:37 | content-engine | returned B-20261116-06 to orchestrator: draft, voice_check pass, no [VERIFY] | -
+2026-11-21 10:30 | orchestrator | run start (process returns and approvals): no owner/STOP, owner files filled, 4 returned drafts read (all voice_check pass), no held items besides the EXAMPLE | -
+2026-11-21 10:31 | orchestrator | decision: Q-20261116-03 ticked Approve (slot confirmation; owner already updated publish dates); moved to Done; no publishing-social brief, as no draft is approved yet | queue/needs-your-ok.md
+2026-11-21 10:32 | orchestrator | decision: rows 006, 007, 008 publish dates (11-18, 11-19, 11-20) have passed; proposed 006 X Wed 2026-11-25 19:00, 007 LinkedIn Thu 2026-12-03 09:00, 008 X Fri 2026-11-27 19:00 (next open days, idea rows 010/012/013 counted as taken); 009 keeps Tue 2026-11-24; calendar dates not changed | brand-os/social/posting-schedule.md
+2026-11-21 10:33 | orchestrator | queued Q-20261121-01 X post row 006 (nothing auto-ships until 2026-12-14; names Claude Code) | queue/needs-your-ok.md
+2026-11-21 10:33 | orchestrator | queued Q-20261121-02 LinkedIn post row 007 (LinkedIn always waits; unresolved [VERIFY] on crawler names) | queue/needs-your-ok.md
+2026-11-21 10:34 | orchestrator | queued Q-20261121-03 X post row 008 (nothing auto-ships until 2026-12-14) | queue/needs-your-ok.md
+2026-11-21 10:34 | orchestrator | queued Q-20261121-04 LinkedIn post row 009 (LinkedIn always waits; names Claude Code) | queue/needs-your-ok.md
+2026-11-21 10:35 | orchestrator | queued Q-20261121-05 move publish dates for rows 006-008 (calendar is owner-set) | queue/needs-your-ok.md
+2026-11-21 10:36 | orchestrator | set rows 006-009 to drafted with draft paths; status table says content-engine sets drafted, but it had no calendar permission, so the orchestrator set it while processing the return | brand-os/content/content-calendar.md
+2026-11-21 10:37 | orchestrator | run end: 5 items waiting for the owner, 0 held for voice review, no briefs or hand-offs | -
